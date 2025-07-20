@@ -28,7 +28,7 @@
 
 <!-- Visitor Count -->
 <p align="center">
-  <img src="https://profile-counter.glitch.me/laka-md/count.svg" alt="Visitor Count" />
+  <img src="https://profile-counter.glitch.me/lakaofc1/count.svg" alt="Visitor Count" />
 </p>
 
 <!-- Repo Info -->
