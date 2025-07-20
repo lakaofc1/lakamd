@@ -1,92 +1,94 @@
-<!-- Typing SVG Header -->
+<!-- 🌀 Typing SVG Title -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=70&pause=1000&color=B700FB&center=true&width=1000&height=120&lines=LAKA-MD-V3.0.0" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=65&duration=4000&pause=1000&color=8E05C2&center=true&width=1000&height=100&lines=💥+LAKA-MD+V3.0.0+💥" alt="Typing SVG" />
   </a>
 </p>
 
-<!-- Decorative Images -->
+<!-- ✨ Decorative GIF & Poster -->
 <p align="center">
-  <img src="https://i.imgur.com/LyHic3i.gif" width="150" />
-  <img src="https://files.catbox.moe/onjpot.jpg" width="180" style="border-radius: 10px;" />
-  <img src="https://i.imgur.com/LyHic3i.gif" width="150" />
+  <img src="https://i.imgur.com/LyHic3i.gif" width="130" />
+  <img src="https://files.catbox.moe/onjpot.jpg" width="180" style="border-radius: 12px; box-shadow: 0 0 15px #B700FB;" />
+  <img src="https://i.imgur.com/LyHic3i.gif" width="130" />
 </p>
 
-<!-- Author Badge -->
+<!-- 👤 Developer Badge -->
 <p align="center">
-  <a href="https://github.com/mrlaka">
-    <img title="Developer" src="https://img.shields.io/badge/Author-Mr%20Laka-FF7604?style=flat-square&logo=github" />
+  <a href="https://github.com/lakaofc1">
+    <img title="Developer" src="https://img.shields.io/badge/Author-lakaofc1-FF7604?style=flat-square&logo=github" />
   </a>
 </p>
 
-<!-- WhatsApp Channel Badge -->
-<div align="center">
+<!-- 📱 WhatsApp Channel -->
+<p align="center">
   <a href="https://whatsapp.com/channel/0029Vb10Jv560eBfnX6Jaa3Y">
     <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp" />
   </a>
-</div>
-
-<!-- Visitor Count -->
-<p align="center">
-  <img src="https://profile-counter.glitch.me/lakaofc1/count.svg" alt="Visitor Count" />
 </p>
 
-<!-- Repo Info -->
+<!-- 👁 Visitor Counter -->
 <p align="center">
-  <a href="https://github.com/mrlaka/Laka-Md-v3">
-    <img src="https://img.shields.io/static/v1?label=Language&message=English&color=darkpink&style=flat-square" />
+  <img src="https://profile-counter.glitch.me/lakamd/count.svg" alt="Visitor Count" />
+</p>
+
+<!-- ℹ️ Info Badges -->
+<p align="center">
+  <a href="https://github.com/lakaofc1/lakamd">
+    <img src="https://img.shields.io/badge/Language-English-darkpink?style=flat-square" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=mrlaka&label=VIEWS&style=flat-square&color=blue" />
+  <img src="https://komarev.com/ghpvc/?username=lakaofc1&label=Profile+Views&style=flat-square&color=blue" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/mrlaka/Laka-Md-v3">
-    <img src="https://img.shields.io/badge/Release-v3.0.0-cyan?style=for-the-badge" />
+  <a href="https://github.com/lakaofc1/lakamd">
+    <img src="https://img.shields.io/badge/Release-v3.0.0-8E05C2?style=for-the-badge&logo=github" />
   </a>
 </p>
 
-<hr>
+---
 
-## 🚀 1. Fork This Repository
+## 🛠️ How to Start
 
-Start by forking this repo to your GitHub account:
+### 🔁 Fork the Repository
 
-<a href="https://github.com/mrlaka/Laka-Md-v3/fork">
+Click below to fork this repo to your GitHub:
+
+<a href="https://github.com/lakaofc1/lakamd/fork">
   <img src="https://img.shields.io/badge/FORK-LAKA,MD-blue?style=for-the-badge&logo=github" />
 </a>
 
 ---
 
-## 🔑 2. Get Session ID
+### 🔑 Get Your Session ID
 
-> You'll need a session ID to run LAKA-MD. If the page doesn’t load, use a VPN.
+> Need session ID to run the bot. Use VPN if the site doesn't load.
 
 <a href="https://lakaweb-6d1063b2401b.herokuapp.com/pair" target="_blank">
-  <img alt="Pair Code" src="https://img.shields.io/badge/Get%20Pairing%20Code-0076D2?style=for-the-badge&logo=opencv&logoColor=black" />
+  <img alt="Get Pairing Code" src="https://img.shields.io/badge/Get%20Pairing%20Code-0076D2?style=for-the-badge&logo=opencv&logoColor=white" />
 </a>
 
 ---
 
-## 🛠️ Deployment Options
+## ⚡ Deploy Instantly
 
-### 🚀 Heroku  
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/mrlaka/Laka-Md-v3)
+### 🟣 Heroku  
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/lakaofc1/lakamd)
 
 ### 🌀 Replit  
-[![Deploy to Replit](https://img.shields.io/badge/Deploy%20to%20Replit-6678CC?style=for-the-badge&logo=replit&logoColor=white)](https://replit.com/github.com/mrlaka/Laka-Md-v3)
+[![Replit](https://img.shields.io/badge/Deploy%20to%20Replit-100000?style=for-the-badge&logo=replit&logoColor=white)](https://replit.com/github.com/lakaofc1/lakamd)
 
-### 🚉 Railway  
-[![Deploy to Railway](https://img.shields.io/badge/Deploy%20to%20Railway-black?style=for-the-badge&logo=railway&logoColor=white)](https://railway.app/new/template/6KyYkk?referralCode=mrlaka)
+### ⚡ Railway  
+[![Railway](https://img.shields.io/badge/Deploy%20to%20Railway-000000?style=for-the-badge&logo=railway)](https://railway.app/new/template/6KyYkk?referralCode=lakaofc1)
 
 ### ☁️ Koyeb  
-[![Deploy to Koyeb](https://img.shields.io/badge/Deploy%20to%20Koyeb-orange?style=for-the-badge&logo=koyeb&logoColor=white)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/mrlaka/Laka-Md-v3-v3)
+[![Koyeb](https://img.shields.io/badge/Deploy%20to%20Koyeb-orange?style=for-the-badge&logo=koyeb&logoColor=white)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/lakaofc1/lakamd)
 
-### 🖥 Render  
-[![Deploy to Render](https://img.shields.io/badge/Deploy%20to%20Render-green?style=for-the-badge&logo=render&logoColor=white)](https://dashboard.render.com/deploy/srv-cjjm8m9k9qfdl8c2fnb0?repo=https://github.com/mrlaka/Laka-Md-v3)
+### 🟢 Render  
+[![Render](https://img.shields.io/badge/Deploy%20to%20Render-green?style=for-the-badge&logo=render&logoColor=white)](https://dashboard.render.com/deploy/srv-cjjm8m9k9qfdl8c2fnb0?repo=https://github.com/lakaofc1/lakamd)
 
 ---
 
-## ⚙️ GitHub Actions - Node.js CI
+## ✅ GitHub Actions CI
 
 ```yaml
 name: Node.js CI
