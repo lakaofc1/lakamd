@@ -5,18 +5,19 @@
   </a>
 </p>
 
-<!-- ✨ Decorative Images -->
+<!-- ✨ Decorative GIF & Poster -->
 <p align="center">
-  <img src="https://i.imgur.com/LyHic3i.gif" width="130" alt="Sparkle" />
-  <img src="https://files.catbox.moe/onjpot.jpg" width="180" style="border-radius: 12px; box-shadow: 0 0 15px #B700FB;" alt="Poster" />
-  <img src="https://i.imgur.com/LyHic3i.gif" width="130" alt="Sparkle" />
+  <img src="https://i.imgur.com/LyHic3i.gif" width="130" />
+  <img src="https://files.catbox.moe/onjpot.jpg" width="180" style="border-radius: 12px; box-shadow: 0 0 15px #B700FB;" />
+  <img src="https://i.imgur.com/LyHic3i.gif" width="130" />
 </p>
 
-<!-- 👤 Author Badge -->
+<!-- 👤 Author & Stats -->
 <p align="center">
   <a href="https://github.com/lakaofc1">
-    <img title="Author: lakaofc1" src="https://img.shields.io/badge/Author-lakaofc1-FF7604?style=flat-square&logo=github" />
+    <img title="Author" src="https://img.shields.io/badge/Author-lakaofc1-FF7604?style=flat-square&logo=github" />
   </a>
+  <img src="https://komarev.com/ghpvc/?username=lakaofc1&label=Profile+Views&style=flat-square&color=blue" />
 </p>
 
 <!-- 📱 WhatsApp Channel -->
@@ -31,32 +32,19 @@
   <img src="https://profile-counter.glitch.me/lakamd/count.svg" alt="Visitor Count" />
 </p>
 
-<!-- ℹ️ Project Info Badges -->
-<p align="center">
-  <a href="https://github.com/lakaofc1/lakamd">
-    <img src="https://img.shields.io/badge/Language-English-darkpink?style=flat-square" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=lakaofc1&label=Profile+Views&style=flat-square&color=blue" />
-  <a href="https://github.com/lakaofc1/lakamd">
-    <img src="https://img.shields.io/badge/Release-v3.0.0-8E05C2?style=for-the-badge&logo=github" />
-  </a>
-</p>
-
 ---
 
 ## 🛠️ Prerequisites
 
 | Tool         | Description                      |
 |--------------|----------------------------------|
-| Node.js 20+  | Required for running the bot     |
-| npm / yarn   | For dependency management        |
-| Session ID   | Generated via Pair Code service  |
+| Node.js 20+  | Required to run the bot          |
+| npm / yarn   | Package manager                  |
+| Session ID   | Get from pair site (VPN needed)  |
 
 ---
 
 ## 🔁 1. Fork the Repository
-
-Fork and clone:
 
 ```bash
 git clone https://github.com/lakaofc1/lakamd.git
