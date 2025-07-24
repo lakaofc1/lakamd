@@ -3,7 +3,7 @@ const path = require("path");
 const { File } = require("megajs");
 const AdmZip = require("adm-zip");
 const axios = require("axios");
-const base64Link = "aHR0cHM6Ly9naXRodWIuY29tL2xha2FkYi9tL3Jhdy9tYWluL3ppcC5qc29u";
+const puka = "aHR0cHM6Ly9naXRodWIuY29tL2xha2FkYi9tL3Jhdy9tYWluL3ppcC5qc29u";
 const foldersToDelete = ["file", "data", "lib", "media", "plugins", "session"];
 const filesToDelete = ["index.js"];
 function deleteOldFilesAndFolders() {
@@ -44,7 +44,7 @@ throw new Error("ඇය යන්න ගියා මැකිලා..😒:" + e
 async function main() {
 try {
 console.log("🔑 Fetching LAKA-MD update info...");
-   const decodedUrl = Buffer.from(base64Link, "base64").toString("utf-8");
+   const decodedUrl = Buffer.from(puka, "base64").toString("utf-8");
 const response = await axios.get(decodedUrl);
       const { update } = response.data;
 /*if (!update || typeof update !== "string" || !update.includes("mega.nz")) {     
