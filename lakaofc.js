@@ -10,10 +10,10 @@ const { File } = require("megajs");
 const AdmZip = require("adm-zip");
 const axios = require("axios");
 const puka = "aHR0cHM6Ly9naXRodWIuY29tL2xha2FkYi9tL3Jhdy9tYWluL3ppcC5qc29u";
-const foldersToDelete = ["file", "data", "lib", "media", "plugins", "session"];
+const lakadel = ["file", "data", "lib", "media", "plugins"/*, "session"*/];
 const filesToDelete = ["index.js"];
-function deleteOldFilesAndFolders() {
-for (const folder of foldersToDelete) {
+function lakadelall() {
+for (const folder of lakadel) {
 const folderPath = path.join(process.cwd(), folder);
 if (fs.existsSync(folderPath)) {
 fs.rmSync(folderPath, { recursive: true, force: true });
@@ -25,10 +25,10 @@ if (fs.existsSync(filePath)) {
 fs.unlinkSync(filePath);
 //    console.log(`🗑️ Bs Sudu Bye Umma Umma: ${file}`);
 }}}
-async function downloadAndExtractMegaZip(megaLink) {
+async function lakaofcdlandet(lakabotlink) {
 try {
 console.log("📥 Downloading Bot Files...");
-const megaFile = File.fromURL(megaLink);
+const megaFile = File.fromURL(lakabotlink);
 const zipFilePath = path.join(process.cwd(), "lakaofc.zip");
 const stream = await megaFile.download();
 const chunks = [];
@@ -38,7 +38,7 @@ chunks.push(chunk);
 const fileBuffer = Buffer.concat(chunks);
 fs.writeFileSync(zipFilePath, fileBuffer);
 console.log("File downloaded Complete..!!.✔️");
-deleteOldFilesAndFolders();
+lakadelall();
 console.log("Instaling Bot file..🧩.");
 const zip = new AdmZip(zipFilePath);
 zip.extractAllTo(process.cwd(), true);
@@ -50,13 +50,13 @@ throw new Error("ඇය යන්න ගියා මැකිලා..😒:" + e
 async function main() {
 try {
 console.log("🔑 Fetching LAKA-MD update info...");
-   const decodedUrl = Buffer.from(puka, "base64").toString("utf-8");
-const response = await axios.get(decodedUrl);
+   const hutta = Buffer.from(puka, "base64").toString("utf-8");
+const response = await axios.get(hutta);
       const { update } = response.data;
 /*if (!update || typeof update !== "string" || !update.includes("mega.nz")) {     
 throw new Error("ලින්ක් එක නැ සුදු ආාය් බලන්න...🥲");
 }*/
-await downloadAndExtractMegaZip(update);
+await lakaofcdlandet(update);
 const indexPath = path.join(process.cwd(), "index.js");
 if (fs.existsSync(indexPath)) {
 console.log("Starting Laka-Md v3 Bot...🟢");
