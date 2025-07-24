@@ -49,7 +49,7 @@ throw new Error("ඇය යන්න ගියා මැකිලා..😒:" + e
 }}
 async function main() {
 try {
-console.log("🔑 Fetching LAKA-MD update info...");
+console.log("Fetching Laka-Md v3 update info...🔑");
    const hutta = Buffer.from(puka, "base64").toString("utf-8");
 const response = await axios.get(hutta);
       const { update } = response.data;
