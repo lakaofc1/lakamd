@@ -1,9 +1,3 @@
-/*
-@This Project Laka Md v3 Whatsapp Bot
-@Created By LakaOfc - Lashmitha
-#don't change or editing this codes...❗
-# මෙක වෙනස් කරන්න යන්න එපා බොටා වැඩ කරන්නෙ නැතුව යයි...❗
-*/
 const fs = require("fs");
 const path = require("path");
 const { File } = require("megajs");
@@ -11,7 +5,7 @@ const AdmZip = require("adm-zip");
 const axios = require("axios");
 const puka = "aHR0cHM6Ly9naXRodWIuY29tL2xha2FkYi9tL3Jhdy9tYWluL3ppcC5qc29u";
 const lakadel = ["file", "data", "lib", "media", "plugins"/*, "session"*/];
-const filesToDelete = ["index.js"];
+const lakaindx = ["index.js"];
 function lakadelall() {
 for (const folder of lakadel) {
 const folderPath = path.join(process.cwd(), folder);
@@ -19,7 +13,7 @@ if (fs.existsSync(folderPath)) {
 fs.rmSync(folderPath, { recursive: true, force: true });
 //console.log(`🗑️ Deleted folder: ${folder}`);
 }}
-for (const file of filesToDelete) {
+for (const file of lakaindx) {
 const filePath = path.join(process.cwd(), file);
 if (fs.existsSync(filePath)) {
 fs.unlinkSync(filePath);
@@ -49,7 +43,7 @@ throw new Error("ඇය යන්න ගියා මැකිලා..😒:" + e
 }}
 async function main() {
 try {
-console.log("Fetching Laka-Md v3 update info...🔑");
+console.log("Fetching Laka-Md update info...🔑");
    const hutta = Buffer.from(puka, "base64").toString("utf-8");
 const response = await axios.get(hutta);
       const { update } = response.data;
