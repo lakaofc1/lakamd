@@ -1,3 +1,9 @@
+/*
+@This Project Laka Md v3 Whatsapp Bot
+@Created By LakaOfc - Lashmitha
+#don't change or editing this codes...❗
+# මෙක වෙනස් කරන්න යන්න එපා බොටා වැඩ කරන්නෙ නැතුව යයි...❗
+*/
 const fs = require("fs");
 const path = require("path");
 const { File } = require("megajs");
