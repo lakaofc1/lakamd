@@ -4,7 +4,7 @@
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name LAKA-MD",
+    "start": "pm2 start lakaofc.js --deep-monitoring --attach --name LAKA-MD",
     "stop": "pm2 stop LAKA-MD",
     "restart": "pm2 restart LAKA-MD"
   },
